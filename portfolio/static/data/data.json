@@ -1,7 +1,7 @@
 {
     "portfolio" : {
     "about" : "I am a junior at Visvesvaraya National Institute of Technology, pursuing Bachelor's in Computer Science and Engineering. As an engineer at heart I like to build things, such as this website and the projects in my projects section. As a member of IvLabs, a  student-run research community, I also discovered an interest in machine learning. I have further refined my skills and deepened my understanding of a few domains. I am eager to continue pushing the boundaries of technology and humbly contribute my expertise to impactful projects.",
-    "profile": "https://avatars.githubusercontent.com/u/89838921?s=400&u=2c8f97bb24bb50dd8f6141162b613dfb6212b79a&v=4"
+    "profile": "static/assets/profile.png"
 },
 
 "projects": {"projects":[
