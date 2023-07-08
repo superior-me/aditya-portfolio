@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+{% block title %}<title>Contact</title>{% endblock title %}
+{% block content %}
+{% load static %}
+            <!-- Page content-->
+            <section class="bg-white py-5 rounded-3">
+                <div class="container px-5">
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-xxl-8">
+                            <div class="text-center my-5">
+                                <h1 class="display-5 fw-bolder"><span class="text-gradient d-inline">Aditya Jivoji</span></h1>
+
+                                {% comment %} <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">Contact me through</span></h2> {% endcomment %}
+                                <div class="d-flex justify-content-center fs-2 gap-4">
+                                    {% comment %} <a class="text-gradient" href="#!"><i class="bi bi-twitter"></i></a> {% endcomment %}
+                                    <a class="text-gradient" href="https://www.linkedin.com/in/aditya-jivoji/"><i class="bi bi-linkedin"></i></a>
+                                    <a class="text-gradient" href="https://github.com/adityajivoji"><i class="bi bi-github"></i></a>
+                                    <a class="text-white" href="mailto:adityajivoji1 at gmail dot com"><i class="px-2 rounded-3 bg-gradient-primary-to-secondary bi bi-envelope"></i></a>
+                                    {% comment %} <a class="feature text-white bg-primary bg-gradient-primary-to-secondary rounded-3 my-2" href="#!"><i class="bi bi-envelope"></i></a> {% endcomment %}
+
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+{% endblock content %}
+        {% comment %} <!-- Footer-->
+        <footer class="bg-white py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0">Copyright &copy; Your Website 2023</div></div>
+                    <div class="col-auto">
+                        <a class="small" href="#!">Privacy</a>
+                        <span class="mx-1">&middot;</span>
+                        <a class="small" href="#!">Terms</a>
+                        <span class="mx-1">&middot;</span>
+                        <a class="small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html> {% endcomment %}

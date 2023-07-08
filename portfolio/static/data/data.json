@@ -1,0 +1,79 @@
+{
+    "portfolio" : {
+    "about" : "I am a junior at Visvesvaraya National Institute of Technology, pursuing Bachelor's in Computer Science and Engineering. As an engineer at heart I like to build things, such as this website and the projects in my projects section. As a member of IvLabs, a  student-run research community, I also discovered an interest in machine learning. I have further refined my skills and deepened my understanding of a few domains. I am eager to continue pushing the boundaries of technology and humbly contribute my expertise to impactful projects.",
+    "profile": "https://avatars.githubusercontent.com/u/89838921?s=400&u=2c8f97bb24bb50dd8f6141162b613dfb6212b79a&v=4"
+},
+
+"projects": {"projects":[
+    {
+        "project_name": "Generative Networks",
+        "description": "Implemented Variational Autoencoder(VAE), Sigma-VAE and Generative Adversarial Network (GAN). Generated images from gaussian estimating real data distribution of CIFAR-10 dataset and achieved a FID score of 169.29.",
+        "img":"gans.png",
+        "github": "https://github.com/adityajivoji/generative_models"
+    },
+    {
+        "project_name": "Autoencoders",
+        "description": "Implemented various autoencoder networks, starting with vanilla model moving on to denoising autoencoder, then sparse and contractive autoencoder.",
+        "img":"ae.png",
+        "github": "https://github.com/Khdave02/Autoencoders"
+    },
+    {
+        "project_name": "Stylus-Snake",
+        "description": "Created a snake game using OpenCV and Python. The game was controlled by a stylus which was tracked using OpenCV.",
+        "img":"stylus_snake.png",
+        "github": "https://github.com/adityajivoji/Stylus_Snake"
+    }
+]
+},
+
+
+"resume" : {
+    "experiences":[
+        {
+            "title": "Research Intern",
+            "date": "December 2022 - present",
+            "place": "University of Verona",
+            "img": "https://www.jeduka.com/storage/school_image/2/university-of-verona.jpg",
+            "points": ["Secured Internship at University of Verona, Italy",
+                    "Working on Computer Vision and Deep Learning under the guidance of Prof. Dr. Marco Cristani"]
+        },
+        {
+            "title": "Research Project on understanding the flow of information in transformers model",
+            "date": "July 2022 - present",
+            "place": "IvLabs",
+            "img": "https://avatars.githubusercontent.com/u/19870127?s=200&v=4",
+            "points": ["Formulated hypothesis by understanding the correlation between the layers of encoder and decoder in transformers model",
+                    "Designed experiments to test the hypothesis",
+                    "Currently implementing the experiments and analyzing the results"]
+        },
+        {
+            "title": "Summer Internship",
+            "date": "Jan 2022 - Jan 2023",
+            "place": "IvLabs",
+            "img": "https://avatars.githubusercontent.com/u/19870127?s=200&v=4",
+            "points": ["Designed and developed an application that used Computer Vision to detect and track the movement of stylus in a video",
+                    "Implemented the application using OpenCV and Python and integrated it with snake game"]
+        }
+    ],
+    "professional_skills": [
+        "Web Development",
+        "Computer Vision",
+        "Natural Language Processing"
+    ],
+    "languages": [
+        "Python",
+        "C",
+        "C++",
+        "LATEX",
+        "MarkDown"
+    ],
+    "tools": [
+        "PyTorch",
+        "Django",
+        "Numpy",
+        "git",
+        "AutoCAD"
+    ]
+}
+
+}
